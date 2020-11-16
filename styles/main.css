@@ -1,0 +1,149 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    }
+
+@font-face{
+    font-family: 'BebasNeueRegular';
+    src: url(../fonts/BebasNeueRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#logo img{
+    margin-right: auto;
+    width:6em;
+    height: 4em;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px; 
+    padding-left: 20px;
+}
+
+#lalla img{
+    float: right;
+    margin-top: 7em;
+    width: 28em;
+    margin-right: 3em;
+}
+
+.navigation-bar {
+    width: 100%;  /* i'm assuming full width */
+    height: 15em; /* change it to desired width */
+    background-color: black; /* change to desired color */
+    margin:0px;
+}
+
+
+h1{
+    font-size: 4em;
+    color: white;
+    margin-left: 50px;
+    margin-top: 1.3em;
+    font-family: 'BebasNeueRegular';
+}
+
+
+h2 a{
+    font-family: 'BebasNeueRegular';
+    color:#FF907F;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+h2{
+    padding-top: 7em;
+    text-align: center;
+
+}
+
+p{
+    font-size:1.7em;
+    padding-left:50px;
+    padding-right: 20em;
+}
+
+p a{
+    padding:8px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-family: 'BebasNeueRegular';
+}
+
+
+ul{
+    list-style:none;
+    display:flex;
+    text-align: left;
+}
+
+nav ul{
+    list-style: none;
+    vertical-align:top;
+    float: right;
+    padding-top: 6px;
+    position: relative;
+}
+
+nav ul li{
+    margin: 1em;
+}
+
+nav ul a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center; 
+}
+
+a:hover{
+    color: #FF907F;
+}
+
+h2 a:hover{
+    color: black;
+}
+
+#werkjes {
+    background-color: black;
+    padding-top:1em;
+    padding-bottom: 1em;
+    justify-content: center;
+}
+
+#werkjes ul{
+    margin:0;
+    padding:0;
+    justify-content: center;
+}
+
+#werkjes ul li{
+    justify-content: center;
+    padding:none;
+    margin:none;
+}
+
+#werkjes ul li img{
+    width: 194px;
+    height: 223px;
+
+}
+
+footer a img{
+    width:276px;
+    height:175px;
+
+}
+
+footer{
+    font-size: 0.5em;
+    display:block;
+    padding:0.5em 2em;
+    justify-content: center;
+    text-align: center;
+}
